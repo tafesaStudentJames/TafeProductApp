@@ -14,10 +14,12 @@
         <Button Name="calculateButton" Content="_Calculate" HorizontalAlignment="Left" Height="37" Margin="327,152,0,0" VerticalAlignment="Top" Width="122" Click="calculateButton_Click"/>
         <Button Name="clearButton" Content="C_lear" HorizontalAlignment="Left" Height="34" Margin="327,209,0,0" VerticalAlignment="Top" Width="122" Click="clearButton_Click"/>
         <Button Name="closeButton" Content="Cl_ose" HorizontalAlignment="Left" Height="34" Margin="327,264,0,0" VerticalAlignment="Top" Width="122" Click="closeButton_Click"/>
-        <Label Content="Total Charge after adding &amp;#xA;the delivery charge ($25)" HorizontalAlignment="Left" Height="68" Margin="31,209,0,0" VerticalAlignment="Top" Width="159"/>
-        <TextBox x:Name="totalChargeTextBox" HorizontalAlignment="Left" Height="22" Margin="195,232,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106"/>
-        <Label Content="Total Charge after adding the wrap charge ($5)" HorizontalAlignment="Left" Height="33" Margin="26,254,0,0" VerticalAlignment="Top" Width="108"/>
-        <TextBox x:Name ="totalChargeWrap" HorizontalAlignment="Left" Height="24" Margin="203,274,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="98"/>
+        <Label Content="Total Charge after adding &amp;#xA;the delivery charge ($25)" HorizontalAlignment="Left" Height="34" Margin="31,197,0,0" VerticalAlignment="Top" Width="159"/>
+        <TextBox x:Name="totalChargeTextBox" HorizontalAlignment="Left" Height="22" Margin="195,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="106"/>
+        <Label Content="Total Charge after adding the wrap charge ($5)" HorizontalAlignment="Left" Height="33" Margin="31,231,0,0" VerticalAlignment="Top" Width="108"/>
+        <TextBox x:Name ="totalChargeWrap" HorizontalAlignment="Left" Height="24" Margin="195,231,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="98"/>
+        <Label Content="Total Charge After GST@10% " HorizontalAlignment="Left" Height="25" Margin="31,264,0,0" VerticalAlignment="Top" Width="97"/>
+        <TextBox x:Name ="totalGST" HorizontalAlignment="Left" Height="25" Margin="190,264,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="103"/>
 
 
     </Grid>
